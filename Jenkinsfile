@@ -3,7 +3,7 @@ node{
     git'https://github.com/tusharindalkar/springbootmongo'
   }
   stage('Compile package'){
-      def mvnHome=tool name: 'maven' ,type:'maven' 
+      def mvn = tool (name: 'maven3', type: 'maven') + '/bin/mvn'
       sh '${mvnHome}/bin/mvn package'
   }
 }
