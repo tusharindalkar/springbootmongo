@@ -1,5 +1,5 @@
 node{
-  stages('SCM checkout'){
+  stage('SCM checkout'){
     git'https://github.com/tusharindalkar/springbootmongo'
   }
   stage('Compile package'){
