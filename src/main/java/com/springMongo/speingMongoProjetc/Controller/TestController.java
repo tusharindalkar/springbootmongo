@@ -10,7 +10,7 @@ public class TestController {
 
 	@RequestMapping(value = "/test",method = RequestMethod.GET)
 	public String name() {
-		System.out.println("Welocome");
+		System.out.println("Welcome to Mongo CRUD");
 		return "Hello welcome";
 	}
 	
