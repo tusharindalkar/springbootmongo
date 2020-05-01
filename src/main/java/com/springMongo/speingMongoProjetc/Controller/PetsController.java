@@ -22,6 +22,7 @@ public class PetsController {
   
   @RequestMapping(value = "/", method = RequestMethod.GET)
   public List<Pets> getAllPets() {
+	  System.out.println("In PetsController .....!");
     return repository.findAll();
   }
 
