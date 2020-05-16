@@ -15,7 +15,7 @@ import com.springMongo.speingMongoProjetc.Pojo.Pets;
 import com.springMongo.speingMongoProjetc.Repository.PetsRepository;
 
 @RestController
-//@RequestMapping("/pets")
+//@RequestMapping("/pets testts")
 public class PetsController {
   @Autowired
   private PetsRepository repository;
